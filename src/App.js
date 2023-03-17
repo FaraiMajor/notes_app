@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Sidebar from "./components/Sidebar"
 import Editor from "./components/Editor"
 import { data } from "./data"
@@ -7,10 +7,26 @@ import { nanoid } from "nanoid"
 import "./App.css"
 
 export default function App() {
-  const [notes, setNotes] = React.useState([])
+  // another option is to use lazy state initialization so our state doesnt reach localStorage on every re-render
+  //   const [notes, setNotes] = React.useState(
+  //     () => JSON.parse(localStorage.getItem("notes")) || []
+  // )
+  const [notes, setNotes] = React.useState('')
   const [currentNoteId, setCurrentNoteId] = React.useState(
     (notes[0] && notes[0].id) || ""
   )
+  // load the note from local storage on component mount
+  useEffect(() => {
+    const storedNote = JSON.parse(localStorage.getItem('notes'));
+    if (storedNote) {
+      setNotes(storedNote)
+    }
+  }, []);
+
+  // update the note in local storage when it changes
+  useEffect(() => {
+    localStorage.setItem('notes', JSON.stringify(notes));
+  }, [notes]);
 
   function createNewNote() {
     const newNote = {
