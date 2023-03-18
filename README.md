@@ -1,44 +1,32 @@
-# Notes App solution
+# Notes App 
 
-## Table of contents
+Manage personal tasks with notes app. Has the ability to add, edit, and delete notes. 
+### :camera: Screenshot
 
-- [Overview](#overview)
-  - [Requirements](#requirements)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Getting Started with Create React App](#getting-started-with-create-react-app)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+![screenshot](/src/images/screenshot1.png) ![screenshot](/src/images/screenshot2.png)
 
-## Overview
+## :hammer: Technologies & Tool
 
-### Requirements
+- React.JS
+- LocalStorage
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+## :trophy: Features
 
-- Sync notes with localStorage
-- Add note summary titles
-- Move modified notes to the top of the list
-- Delete notes
+- Users can add new notes.
+- Users can modify notes
+- Users can delete notes
+- Notes data stored in localStorage
 
-### Screenshot
 
-![screenshot](/src/screenshots/screenshot.png)
 
-### Getting Started with Create React App
+### :bulb: Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## My process
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- React.JS
-- Flexbox
-
-### Useful resources
+### :computer: Useful resources
 
 - [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Window.localStorage
@@ -47,6 +35,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [BobbyHadz](https://bobbyhadz.com/blog/javascript-remove-non-alphanumeric-characters-from-string) - Remove all non-alphanumeric Characters from String in JS
 - [GeeksForGeeks](https://www.geeksforgeeks.org/javascript-array-unshift-method/) - JavaScript Array unshift() Method
 
-## Author
+## :bust_in_silhouette: Author
 
 - Website - [Farai Major](https://faraimajor.com/)
