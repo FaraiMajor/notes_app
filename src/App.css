@@ -26,6 +26,7 @@ button:focus {
 .sidebar {
     width: 20%;
     height: 100vh;
+    background-color: #1d1f31;
 }
 
 .sidebar--note {
@@ -38,8 +39,50 @@ button:focus {
     align-items: center;
 }
 
-.sidebar--header>h3 {
-    font-size: 1.75rem;
+.wrapper.nine {
+    font-family: 'Karla', sans-serif;
+}
+
+.rotate span {
+    font-size: 3rem;
+    color: #749239;
+    display: inline-flex;
+    animation: rotate 3s infinite;
+}
+
+.rotate .a {
+    color: whitesmoke;
+}
+
+@keyframes rotate {
+    0%,
+    75% {
+        transform: rotateY(360deg);
+    }
+}
+
+.nine span:nth-of-type(1) {
+    animation-delay: 0.2s;
+}
+
+.nine span:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.nine span:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+
+.nine span:nth-of-type(4) {
+    animation-delay: 0.8s;
+}
+
+.nine span:nth-of-type(5) {
+    animation-delay: 1s;
+}
+
+.nine span:nth-of-type(6) {
+    animation-delay: 1.2s;
 }
 
 .new-note {
@@ -91,19 +134,22 @@ button:focus {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.2rem;
-    color: black;
+    color: white;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .selected-note {
-    background-color: #4A4E74;
+    /* background-color: #4A4E74; */
+    border: 1.3px solid #ecedf0;
+    box-shadow: rgba(244, 242, 242, 0.24) 0px 3px 8px;
 }
 
 .unselected-note {
-    background-color: #ffdc6a;
-    margin: 5px 0;
+    /* background-color: #4A4E74; */
+    border: 1px solid #4A4E74;
+    margin: 8px 0;
 }
 
 .selected-note .text-snippet {
@@ -130,6 +176,7 @@ button:focus {
 }
 
 .delete-btn {
+    color: white;
     display: none;
     background: none;
     border: none;
