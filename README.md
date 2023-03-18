@@ -1,9 +1,9 @@
 # Notes App 
 
 Manage personal tasks with notes app. Has the ability to add, edit, and delete notes. 
-### Screenshot
+### :camera: Screenshot
 
-![screenshot](/src/screenshots/screenshot.png)
+![screenshot](/src/images/screenshot1.png) ![screenshot](/src/images/screenshot2.png)
 
 ## :hammer: Technologies & Tool
 
@@ -21,12 +21,12 @@ Manage personal tasks with notes app. Has the ability to add, edit, and delete n
 
 
 
-### Getting Started with Create React App
+### :bulb: Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-### Useful resources
+### :computer: Useful resources
 
 - [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Window.localStorage
@@ -35,6 +35,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [BobbyHadz](https://bobbyhadz.com/blog/javascript-remove-non-alphanumeric-characters-from-string) - Remove all non-alphanumeric Characters from String in JS
 - [GeeksForGeeks](https://www.geeksforgeeks.org/javascript-array-unshift-method/) - JavaScript Array unshift() Method
 
-## Author
+## :bust_in_silhouette: Author
 
 - Website - [Farai Major](https://faraimajor.com/)
