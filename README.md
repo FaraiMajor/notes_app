@@ -1,25 +1,26 @@
 # Notes App solution
 
+Manage personal tasks with notes app. Has the ability to add, edit, and delete notes. 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Requirements](#requirements)
+  - [Features](#requirements)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Getting Started with Create React App](#getting-started-with-create-react-app)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Technologies & Tool](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
-### Requirements
+## :trophy: Features
 
-- Sync notes with localStorage
-- Add note summary titles
-- Move modified notes to the top of the list
-- Delete notes
+- Users can add new notes.
+- Users can modify notes
+- Users can delete notes
+- Notes data stored in localStorage
 
 ### Screenshot
 
@@ -31,11 +32,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## My process
 
-### Built with
+## :hammer: Technologies & Tool
 
+- React.JS
+- LocalStorage
 - Semantic HTML5 markup
 - CSS custom properties
-- React.JS
 - Flexbox
 
 ### Useful resources
