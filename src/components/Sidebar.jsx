@@ -28,10 +28,23 @@ export default function Sidebar(props) {
     return (
         <section className="pane sidebar">
             <div className="sidebar--header">
-                <h3>Notes</h3>
+                <div className="wrapper nine">
+                    <div>
+                        <h3 className="rotate">
+                            <span>N</span>
+                            <span>O</span>
+                            <span>T</span>
+                            <span>E</span>
+                            <span>S</span>
+                            <span className="a">A</span>
+                            <span className="a">P</span>
+                            <span className="a">P</span>
+                        </h3>
+                    </div>
+                </div>
                 <button className="new-note" onClick={props.newNote}>+ ADD NOTE</button>
             </div>
             {noteElements}
-        </section>
+        </section >
     )
 }
