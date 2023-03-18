@@ -9,7 +9,7 @@ export default function Sidebar(props) {
             <div key={note.id}>
                 <div
 
-                    className={`title ${note.id === props.currentNote.id ? "selected-note" : ""
+                    className={`title ${note.id === props.currentNote.id ? "selected-note" : "unselected-note"
                         }`}
                     onClick={() => props.setCurrentNoteId(note.id)}
                 >
